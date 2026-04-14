@@ -34,7 +34,7 @@ else:
 
 print("Extra charges:", extra_charges)
 
-if age >= 21:
+if age >= 21 or (age >= 18 and show_time != "Evening"):
     print("Ticket booking condition satisfied")
 else:
     print("Ticket booking failed due to restrictions")
