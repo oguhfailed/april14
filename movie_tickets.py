@@ -16,7 +16,7 @@ is_weekend = False
 
 discount = 0
 
-if is_member:
+if is_member and age >= 21:
     discount = 3
     print("User qualifies for membership discount")
 else:
