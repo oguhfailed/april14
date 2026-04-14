@@ -1,3 +1,5 @@
+running_total = 0
+
 a = "Hello"
 b = "World"
 
