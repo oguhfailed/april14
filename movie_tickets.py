@@ -29,3 +29,7 @@ extra_charges = 0
 if is_weekend:
     extra_charges = 2
     print("Extra charges will be applied")
+else:
+    print("No extra charges will be applied")
+
+print("Extra charges:", extra_charges)
