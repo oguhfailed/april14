@@ -1,9 +1,11 @@
 running_total = 0
 
-appetizers = 10
-main_courses = 30
-desserts = 8
-drinks = 12
+num_of_friends = 4
+
+appetizers = 37.89
+main_courses = 57.34
+desserts = 39.39
+drinks = 64.21
 
 running_total += appetizers + main_courses + desserts + drinks
 
