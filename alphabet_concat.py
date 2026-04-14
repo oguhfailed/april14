@@ -1,10 +1,10 @@
 running_total = 0
 
-a = "Hello"
-b = "World"
+appetizers = 10
+main_courses = 30
+desserts = 8
+drinks = 12
 
-print(a)
-print(b)
+running_total += appetizers + main_courses + desserts + drinks
 
-c = a + b
-print(c)
+print("Total bill so far: " + str(running_total))
