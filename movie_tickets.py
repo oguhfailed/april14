@@ -5,3 +5,6 @@ age = 18
 
 if age > 17:
     print("User is eligible to book a ticket")
+
+if age >= 21:
+    print("User is eligible for Evening shows")
