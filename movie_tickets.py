@@ -19,3 +19,5 @@ discount = 0
 if is_member:
     discount = 3
     print("User qualifies for membership discount")
+
+print("Discount:", discount)
